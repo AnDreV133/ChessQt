@@ -1,0 +1,22 @@
+#ifndef GAMETYPESMENUWINDOW_H
+#define GAMETYPESMENUWINDOW_H
+
+#include <QWidget>
+
+namespace Ui {
+class GameTypesMenu;
+}
+
+class GameTypesMenu : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit GameTypesMenu(QWidget *parent = nullptr);
+    ~GameTypesMenu();
+
+private:
+    Ui::GameTypesMenu *ui;
+};
+
+#endif // GAMETYPESMENUWINDOW_H
